@@ -1,1 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2022-03-02T09:58:01.076Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="9YRcOfboYlm_IX8C_Ad9" version="16.6.4" type="github"><diagram id="QlxS-xrhG8iBZqLs4fyR" name="Page-1">1VlNd5s6EP01OqdvkR6+kZYG43TRt/I757XdKUYBejByhMBOf31HIAwEJ03bfMDGFlcjaebO9WhsIzvcn64FPaT/8pjlyDLiE7LXyLJMgxjwppD7FvFMpwUSkcXaqAe22Q/WrdRolcWsHBlKznOZHcbgjhcF28kRRoXgx7HZLc/Hpx5owibAdkfzKfp/Fsu0RbHl9/gnliVpd7LpkXZmTztjHUmZ0pgfB5AdITsUnMt2tD+FLFfkdby06zaPzJ4dE6yQz1kgv4TXxuYOfzPr1Sfbtba+/HbltrvUNK90wNpZed8xwGIgRD9yIVOe8ILmUY8GgldFzNQxBjz1Np85PwBoAvidSXmvs0sryQFK5T7Xs9NQdHQlr8SOPeG/rSVBRcLkE3ZadCqWwQGaqGvG90yKezAQLKcyq8fJp1pDydmupxkGmunfYN2+wLqXg/9BnNUwTGRDSguVB1p02C6nZQkrt7KKFVf+2Qr8GBoO4Atb/uKUMTbQgndXKbUGxzST7AqmVW5WKnWC9bODbZBlk7E3w3MOIqupZE08IisSGBR0zx5fsLCoMsgQqCdZfETVTZ7tetl9+Gfhwnurc8rqwASwtez0I3/9Ku6/zrZdifyPlXLN9vzFpfoGn7NSwiWkBjWHe0T1ElnxQddIN0DuumluknL4ObwRs42ru63UERW8NmcYBTuOSoq9hFAGov0TL0eSH9k+aLrGLVXj/Lb1fX2ERhuN2ieaZ0kB45zd9ptd6KZqJiQ7Pdn/6Nlz06q7dls/HvsW2HI0lg7a3/O6F2+Z/IU3qs4zG1VvVo2qM2U9chH2ECHNwEUr9+N3WlMUeWhloCBUMLzijUKIh7CPIgcFAQq8vxP5S6gaj1VtkamsTeuCrL3XUjVZuKq9Z6oaz0rV3oR1JeEdinwlXRBthNFqg4g5ScZbK9Zx5qZY05yQtyzJ4mdKtvsBaiaaxRPaP7ad7hIKr0tmJ+NLP8EsScadPH+tY2tWOu78HhAP/odKyvAdoJVuQNQgsBFx3126vveO0q1Ptfjqn0In+vJ1l97d+CS+vbJmpNwHovpDKVtTKV+M/H2FO+U9bAswdA2mKrRQgKFrUOLFClm9f/tA7LmJ90L3oNgyELYVkcRBK9z9XNATCxMrhB1VFTBGEARQDd0Zwc2XkE0zIOrGU7ffprkGw6aWRM0qmDLUJTmtLkPjhzu/RimapO5Cgh/Npmkab5dOeOz/mmrmBn/w2dFP</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-08T05:05:37.239Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="aiOu8hXAHdHza1fGrATV" version="16.6.7" type="github">
+  <diagram id="QlxS-xrhG8iBZqLs4fyR" name="Page-1">
+    <mxGraphModel dx="1090" dy="1783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tXCG0Fq8Z1vAH352S7tZ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tXCG0Fq8Z1vAH352S7tZ-3" target="tXCG0Fq8Z1vAH352S7tZ-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tXCG0Fq8Z1vAH352S7tZ-3" value="&lt;div&gt;&lt;span&gt;class Student{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;private String name;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;private int age;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;public Student(){&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;super();&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;public Student(String name,int age){&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;super();&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;this.name=name;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;this.age=age;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;}&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;private Student(String name){//构造方法不管形参的位置，名称以及修饰构造方法是public还是private ,只要形参的数据类型和形参的数量是一样的，都是判定重复的构造方法；&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;s&lt;/span&gt;uper();&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;this.name=name;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;}&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;public void hello(String name){&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;System.out.println(&quot;hello, &quot;+name):&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;}&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="155" y="-100" width="370" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="tXCG0Fq8Z1vAH352S7tZ-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tXCG0Fq8Z1vAH352S7tZ-4" target="tXCG0Fq8Z1vAH352S7tZ-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tXCG0Fq8Z1vAH352S7tZ-4" value="写入.java格式文件" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tXCG0Fq8Z1vAH352S7tZ-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tXCG0Fq8Z1vAH352S7tZ-6" target="tXCG0Fq8Z1vAH352S7tZ-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tXCG0Fq8Z1vAH352S7tZ-6" value="javac编译" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RFU5B4OvJEIW9hu3ygYT-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tXCG0Fq8Z1vAH352S7tZ-8" target="tXCG0Fq8Z1vAH352S7tZ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tXCG0Fq8Z1vAH352S7tZ-8" value="Student.class格式文件" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RFU5B4OvJEIW9hu3ygYT-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tXCG0Fq8Z1vAH352S7tZ-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1121" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tXCG0Fq8Z1vAH352S7tZ-10" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;//获取class 类的对象&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Class&amp;lt;?&amp;gt; cc = new Student().getClass();&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Class&amp;lt;?&amp;gt; cc2 = Student..class;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Class&amp;lt;?&amp;gt; cc3 = Class.forName(&quot;com.yida.Student&quot;):&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="760" y="275" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RFU5B4OvJEIW9hu3ygYT-8" value="//反射构造方法&lt;br&gt;Constructor&amp;lt;?&amp;gt; con&amp;nbsp; =&amp;nbsp; cc.getConstructor(String.class,int.class)//获取公共的构造方法&lt;br&gt;Constructor &amp;lt;?&amp;gt; con2 = cc.getDeclaredConstrunctor(String.class,int.class)&lt;br&gt;//反射成员变量&lt;br&gt;Field ff = cc.getField(&quot;name&quot;);&lt;br&gt;Field ff2 = cc.getDeclaredField(&quot;name&quot;);&lt;br&gt;//反射方法&lt;br&gt;Method mm&amp;nbsp; = cc.getMethod(&quot;hello&quot;,String.class);&lt;br&gt;Method mm 2 =cc.getDeclaredMethod(&quot;hello&quot;,String.class);&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="220" width="420" height="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
