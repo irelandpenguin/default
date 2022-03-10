@@ -1,1 +1,102 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T11:03:28.673Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="1C88V7D6SB-si5diwebq" version="17.1.0" type="github"><diagram id="3su092B6f2OQ03xG6c9O" name="Page-1">7Vndk5owEP9rmLk+6BBAPh79uvahvemMnen5mJMccBMTG+Op/esbJBGQcOKdeHbGJ7O/LMvub5fNIoY9nG++MriIf9AQYcMyw41hjwzLAmZgip8U2WaIC5wMiFgSSqUcmCR/kbpSoqskRMuSIqcU82RRBmeUEDTjJQwyRtdltWeKy3ddwAhVgMkM4ir6Owl5nKG+5eX4N5REsbozcINsZw6VsoxkGcOQrguQPTbsIaOUZ6v5ZohwSp7iJbvuvmZ37xhDhDe5gHQep1GAHh5eHshqGf2i23jYkcl4hXglA5bO8q1iIGJ0tZBqiHG00fEOn5S6WfUL7KMVZYLoHHG2FSrSkKoQWSDAlfI6p9tyJBYXqVaKUKY42pvOWRALScQJpAANKS4Wtx2EyatYRulSQcsFJApbbsksZpSIKg6Fgbv+F8PbKwpXiroKfmKHiFCsvU8hMe6fVVo6g3WccNQR2zOB91PqGcp3D80ciUD8GpYdlL3Rud3cHULZHOKqR0Wy7gYNmHqXn3oya5Rbof3Az7MbPIilW4d3L+XB29QfL8DLOOmNWnH/ZLMH3VY0WxKitDuZKthJFutoLU5YgcV8LrrZCIglxElExBqj59yYpkkXm3H9MVDt0J/Xgi1dDz77wfROLkBPx4XV2nEUHOfipLJ5TjAeUkyZkAkl6EOlU3e6y+PcqZ7mWvr81irp7cNc02EEBbwjH620weyermqHGXvGoG8M7tNF3zd8gTjGQCzMNh718yeokBFXkxCntXL2/sdylmas8rCqmVUBuCSZbtM2eRpNH5/qHfvqxnr7XGN9k2H1NtanY32TF6DbWH8b629jfStjvXt1Y33vms/+GrquZZLVcKefQfuGP/ysafN4yfkazmyv6zqe2fN9y+5ZgQNaohA0+L/z6uqvZvQEXeAVSWs2iV6KacutEIvCCE2kSBmPaUQJxOMcHZSpz3W+U7qQhL8gzrfyMwFccVpOB9ok/LGwnqamuqLrZOJoI03vhK0SiAj4cafZU+JUGUmF/LKdpK7LAkyjqk2zhJZ0xWaowTsRhyxCb76e9PQ1whCGPHkte3L+pAafmVTzXUkFXdMMimk1uyAHalK7k34ilgjeEGsh307DfGf//Zw/30LMvzzt9grf7+zxPw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-10T11:21:08.241Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="X3h-gSwOkOdcihIW4R3c" version="17.1.0" type="github">
+  <diagram id="3su092B6f2OQ03xG6c9O" name="Page-1">
+    <mxGraphModel dx="1090" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n-XYg9eNNjNnusgToyhC-4" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="80" y="160" width="270" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="n-XYg9eNNjNnusgToyhC-1" value="&lt;div&gt;&lt;span&gt;synchronized (A){&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: normal&quot;&gt;synchronized(B){&lt;/span&gt;&lt;span&gt;	&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;.&lt;/span&gt;..&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;}&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="n-XYg9eNNjNnusgToyhC-4" vertex="1">
+          <mxGeometry width="270" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="n-XYg9eNNjNnusgToyhC-21" value="" style="group" parent="n-XYg9eNNjNnusgToyhC-4" vertex="1" connectable="0">
+          <mxGeometry width="168.75" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="n-XYg9eNNjNnusgToyhC-2" value="&lt;div style=&quot;text-align: left&quot;&gt;线程一&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="n-XYg9eNNjNnusgToyhC-21" vertex="1">
+          <mxGeometry width="67.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n-XYg9eNNjNnusgToyhC-6" value="" style="group;fillColor=none;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="420" y="160" width="260" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="n-XYg9eNNjNnusgToyhC-3" value="&lt;div&gt;&lt;span&gt;synchronized (B){&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: normal&quot;&gt;synchronized(A){&lt;/span&gt;&lt;span&gt;	&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;.&lt;/span&gt;..&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;}&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="n-XYg9eNNjNnusgToyhC-6" vertex="1">
+          <mxGeometry width="260" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="n-XYg9eNNjNnusgToyhC-5" value="线程二" style="rounded=0;whiteSpace=wrap;html=1;" parent="n-XYg9eNNjNnusgToyhC-6" vertex="1">
+          <mxGeometry width="86.66666666666666" height="37.64705882352941" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba_hDjaPhDjhGHtapbVK-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="n-XYg9eNNjNnusgToyhC-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ba_hDjaPhDjhGHtapbVK-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ba_hDjaPhDjhGHtapbVK-3" target="Ba_hDjaPhDjhGHtapbVK-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba_hDjaPhDjhGHtapbVK-3" value="线程一先抢到资源，先执行" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba_hDjaPhDjhGHtapbVK-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ba_hDjaPhDjhGHtapbVK-4" target="Ba_hDjaPhDjhGHtapbVK-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba_hDjaPhDjhGHtapbVK-4" value="线程一刚刚开始执行后，线程二才抢到资源执行" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba_hDjaPhDjhGHtapbVK-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="n-XYg9eNNjNnusgToyhC-3" target="Ba_hDjaPhDjhGHtapbVK-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba_hDjaPhDjhGHtapbVK-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ba_hDjaPhDjhGHtapbVK-6" target="Ba_hDjaPhDjhGHtapbVK-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba_hDjaPhDjhGHtapbVK-6" value="&lt;span&gt;发起响应，发现没有其他线程使用锁对象A&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba_hDjaPhDjhGHtapbVK-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ba_hDjaPhDjhGHtapbVK-8" target="Ba_hDjaPhDjhGHtapbVK-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba_hDjaPhDjhGHtapbVK-8" value="使用锁对象A同步" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba_hDjaPhDjhGHtapbVK-10" value="cpu资源或者执行权" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba_hDjaPhDjhGHtapbVK-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ba_hDjaPhDjhGHtapbVK-10" target="Ba_hDjaPhDjhGHtapbVK-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="360" as="sourcePoint" />
+            <mxPoint x="390" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ba_hDjaPhDjhGHtapbVK-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ba_hDjaPhDjhGHtapbVK-3" target="Ba_hDjaPhDjhGHtapbVK-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="100" as="sourcePoint" />
+            <mxPoint x="285" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ba_hDjaPhDjhGHtapbVK-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ba_hDjaPhDjhGHtapbVK-4" target="Ba_hDjaPhDjhGHtapbVK-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="285" y="400" as="sourcePoint" />
+            <mxPoint x="500" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ba_hDjaPhDjhGHtapbVK-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ba_hDjaPhDjhGHtapbVK-16" target="Ba_hDjaPhDjhGHtapbVK-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba_hDjaPhDjhGHtapbVK-16" value="发起响应，发现没有其他线程使用锁对象B" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba_hDjaPhDjhGHtapbVK-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ba_hDjaPhDjhGHtapbVK-18" target="Ba_hDjaPhDjhGHtapbVK-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba_hDjaPhDjhGHtapbVK-18" value="使用锁对象B同步" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba_hDjaPhDjhGHtapbVK-20" value="发起响应，发现线程二使用锁对象B,等待释放" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba_hDjaPhDjhGHtapbVK-22" value="发起响应，发现线程一使用锁对象A,等待释放" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
