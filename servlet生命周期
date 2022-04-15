@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-14T01:59:03.383Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="w4zWodW5qk0TIvFaO62d" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-15T09:32:29.051Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="wshGwOl_gK5wcs5TgsSg" version="17.4.3" type="github">
   <diagram id="P1yQ-hVK5YOgMMDO1PV8" name="Page-1">
-    <mxGraphModel dx="1282" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1090" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,8 +13,8 @@
         <mxCell id="di79iOh7AizXT7ZGlDDF-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.432;entryY=0.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="di79iOh7AizXT7ZGlDDF-2" target="di79iOh7AizXT7ZGlDDF-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="di79iOh7AizXT7ZGlDDF-2" value="tomcat 服务器根据客户端请求的url中的web应用名称进行查找，以及中间件资源的名称匹配&amp;lt;url-pattern&amp;gt;和对应的&amp;lt;servlet-name&amp;gt;；原则先匹配中间件动态资源，在匹配静态资源" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="240" y="250" width="270" height="60" as="geometry" />
+        <mxCell id="di79iOh7AizXT7ZGlDDF-2" value="tomcat 服务器根据客户端请求的url 遍历web应用的/WEB_INF/web.xml 匹配&amp;lt;url-pattern&amp;gt;和对应的&amp;lt;servlet-name&amp;gt;以及&amp;lt;servlet-class&amp;gt;；原则先匹配中间件动态资源，在匹配静态资源" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="250" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="di79iOh7AizXT7ZGlDDF-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="di79iOh7AizXT7ZGlDDF-4" target="di79iOh7AizXT7ZGlDDF-5">
           <mxGeometry relative="1" as="geometry" />
@@ -28,7 +28,7 @@
         <mxCell id="di79iOh7AizXT7ZGlDDF-5" value="host文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="100" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="di79iOh7AizXT7ZGlDDF-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.183;entryY=-0.041;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="di79iOh7AizXT7ZGlDDF-8" target="di79iOh7AizXT7ZGlDDF-2">
+        <mxCell id="di79iOh7AizXT7ZGlDDF-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.166;entryY=-0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="di79iOh7AizXT7ZGlDDF-8" target="di79iOh7AizXT7ZGlDDF-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="di79iOh7AizXT7ZGlDDF-8" value="dns" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -42,7 +42,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="di79iOh7AizXT7ZGlDDF-11" value="匹配到后，到/WEB-INF/classes/com/yida/ 通过反射技术调用构造方法，Class.forName(&quot;com.yida.FirstServlet&quot;);" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="di79iOh7AizXT7ZGlDDF-11" value="匹配到后，根据&amp;lt;servlet-class&amp;gt; 到/WEB-INF/classes/找到class文件，然后 通过反射技术调用构造方法，Class.forName(&quot;com.yida.FirstServlet&quot;);" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="200" y="340" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="di79iOh7AizXT7ZGlDDF-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="di79iOh7AizXT7ZGlDDF-15" target="di79iOh7AizXT7ZGlDDF-17">
